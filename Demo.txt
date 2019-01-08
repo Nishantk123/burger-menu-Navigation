@@ -1,0 +1,24 @@
+*****EVent bubbing issue
+
+In this project First We have create parent div (className = App) and added Click event listener.
+in side parent element we have added button as child component and added on click listener. When we 
+are tapping on button, both listener are fired. so for get tide of this event bubbing issue We have
+id on both parent and child component. and getting Id by document.getElementById and controlling the 
+parent event by javascript
+
+
+******* Right Implementation
+    * first we have created button along with menu
+    * After tapping on button we are adding className and css-animation, style with the help of 
+                document.getElementById 
+                classlist.added 
+                classlist.toggle
+    * another click on  button, we are removing className and style
+    * For clicking outside of both button or anywhere in screen we are again removing or closing the menu
+    * For  solving the Event budding We have used javascript to controll the event 
+    * For full implementation we have used React, javascript, css
+    * for shlowing the current menu we have used react state to manage the state of application
+    * for retaining the burger state we are pusing the state to localstorage
+    
+
+
